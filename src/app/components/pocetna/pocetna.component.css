@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #f2cc8f;
+   
+}
+
+img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+.imgClass{
+  border-bottom: 3px solid rgb(99, 90, 79);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgClass .welcomeMessageClass{
+    position: absolute;
+    width: 380px;
+}
+
+.imgClass span{
+    color: gray;
+    font-size: 65px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

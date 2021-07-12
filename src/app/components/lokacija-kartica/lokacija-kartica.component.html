@@ -1,0 +1,16 @@
+<div class="container" *ngIf="lokacija">
+    <app-lokacija-map [centerX]="lokacija.x" [centerY]="lokacija.y" [query]="lokacija.query"></app-lokacija-map>
+    <div class="details">
+        <p>Naziv: {{lokacija.naziv}}</p>
+        <p>Kategorija: {{lokacija.kategorija}}</p>
+        <p>Opis: {{lokacija.opis}}</p>
+    </div>
+    <div class="stars">
+        <fa-icon [icon]="starIcon" [class]="getStarClass(1)" (click)="clickOnStar(1)"></fa-icon>
+        <fa-icon [icon]="starIcon" [class]="getStarClass(2)" (click)="clickOnStar(2)"></fa-icon>
+        <fa-icon [icon]="starIcon" [class]="getStarClass(3)" (click)="clickOnStar(3)"></fa-icon>
+        <fa-icon [icon]="starIcon" [class]="getStarClass(4)" (click)="clickOnStar(4)"></fa-icon>
+        <fa-icon [icon]="starIcon" [class]="getStarClass(5)" (click)="clickOnStar(5)"></fa-icon>
+    </div>
+
+</div>

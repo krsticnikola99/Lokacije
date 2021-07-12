@@ -1,0 +1,17 @@
+<nav> 
+  <div class="container">
+    <div class="containerLeft">
+        <a routerLink="/pocetna">Pocetna</a>
+        <a routerLink="/prijava" [class]="(isLoged() | async) === 1?'visiblefalse':'visibletrue' " >Prijavi se</a>
+        <a routerLink="/dodavanjelokacije" [class]="(isLoged() | async) === 1?'visibletrue':'visiblefalse' " >Dodaj lokaciju</a>
+        <a routerLink="/pocetna" [class]="(isLoged() | async) === 1?'visibletrue':'visiblefalse' " (click)="odjaviSe()" >Odjavi se</a>
+      </div>
+      <div class="containerRight" *ngIf="korisnik">
+        <img [src]="korisnik.slika">
+         <span>{{korisnik.ime+' '+korisnik.prezime}}</span>
+      </div>
+  </div>
+  
+</nav>
+
+<router-outlet></router-outlet>

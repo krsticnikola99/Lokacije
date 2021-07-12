@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="center">
+        <input type="text" placeholder="Naziv lokacije"  (change)="updateNaziv($event)">
+        <input type="text" placeholder="Kategorija"  (change)="updateKategorija($event)">
+        <input type="text" placeholder="Opis"  (change)="updateOpis($event)">
+
+        <input type="text" placeholder="Pretrazi lokaciju"  (change)="updatePretraga($event)">
+        <input type="button" value="Pretrazi" (click)="pretraziLokaciju()">
+        <iframe
+        width="100%"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        [src]="mapLink | safe">
+        </iframe>
+        <span class="validatemessage">Podaci nisu validni.</span>
+        <input type="button" value="Dodaj" (click)="dodajLokaciju()">
+    </div>
+</div>

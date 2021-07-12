@@ -1,0 +1,48 @@
+{
+  "lokacije": [
+    {
+      "id": 1,
+      "naziv": "Tvrdjava",
+      "opis": "Niska tvrdjava",
+      "kategorija": "Izlet",
+      "x": 43.3252476,
+      "y": 21.8953769,
+      "ocena": 3
+    },
+    {
+      "id": 2,
+      "naziv": "Park Cair",
+      "opis": "Sportsko rekreativni centar cair.",
+      "kategorija": "Sport",
+      "x": 43.3141233,
+      "y": 21.9066716,
+      "ocena": 4
+    },
+    {
+      "id": 3,
+      "naziv": "Svetosavski park",
+      "opis": "Crkva Svetog Cara Konstantina i Carice Jelene",
+      "kategorija": "Religija",
+      "x": 0,
+      "y": 0,
+      "ocena": 5,
+      "query":"Park+svetog+save+nis"
+    }
+  ],
+  "korisnici": [
+    {
+      "korisnickoIme": "krsta",
+      "ime": "Nikola",
+      "prezime": "Krstic",
+      "slika": "https://yt3.ggpht.com/yti/APfAmoGzE_SaPfLp4nb42tUbXfs9jC-mnHYhNKsmkXXobg=s88-c-k-c0x00ffffff-no-rj-mo",
+      "sifra": "12345"
+    },
+    {
+      "korisnickoIme": "marija",
+      "ime": "Marija",
+      "prezime": "Krsanin",
+      "slika": "https://scontent.fbeg8-1.fna.fbcdn.net/v/t1.6435-9/39169719_2173466536224197_859795037536387072_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ABCkVAHyIxYAX97hPm2&_nc_ht=scontent.fbeg8-1.fna&oh=d81a182ba3fc4b58267ff430fc17f59c&oe=60F0D680",
+      "sifra": "54321"
+    }
+  ]
+}
