@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  mapUrl:"https://www.google.com/maps/embed/v1/view?key=AIzaSyADCL9cSOE0zBfx7ykUGf1T-BZJ8W1Rkls&zoom=14&",
+  mapQuery:"https://www.google.com/maps/embed/v1/place?key=AIzaSyADCL9cSOE0zBfx7ykUGf1T-BZJ8W1Rkls&",
+  apiUrl:"http://localhost:3000/",
+  apiImage:"https://jelenadisevic.com/Database/GtcWeb/upload.php",
+  imageURL:"https://jelenadisevic.com/Database/GtcWeb/"
 };
 
 /*

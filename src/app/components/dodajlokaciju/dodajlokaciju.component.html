@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="center">
+        <input type="text" placeholder="Naziv lokacije"  (change)="updateNaziv($event)">
+        <select  (change)="updateKategorija($event)">
+            <option value="Sport">Sport</option>
+            <option value="Izlet">Izlet</option>
+            <option value="Planinarenje">Planinarenje</option>
+            <option value="Turizam">Turizam</option>
+
+        </select>
+
+        <input type="text" placeholder="Opis"  (change)="updateOpis($event)">
+
+        <input type="text" placeholder="Pretraži lokaciju"  (change)="updatePretraga($event)">
+        <input type="button" value="Pretraži" (click)="pretraziLokaciju()">
+        <iframe
+        width="100%"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        [src]="mapLink | safe">
+        </iframe>
+        <span class="validatemessage {{validateMessageVisible}}">Podaci nisu validni.</span>
+        <input type="button" value="Dodaj" (click)="dodajLokaciju()">
+    </div>
+</div>

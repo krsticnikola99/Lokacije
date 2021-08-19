@@ -1,0 +1,48 @@
+
+  .kategorija{
+    display: flex;
+    justify-content: space-evenly;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #7245db;
+}
+.kategorija .dugme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px;
+    padding: 5px 30px 5px 30px;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.kategorija .dugme fa-icon {
+  font-size: 65px;
+}
+.kategorija .dugme:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #7245db;
+  color: white;
+}
+
+
+@media (max-width: 950px) {
+    .kategorija{
+        flex-wrap: wrap;
+        align-content: stretch;
+        box-shadow: none;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .kategorija .dugme fa-icon{
+      
+        font-size: 30px;
+    }
+    .kategorija .dugme{
+
+        padding: 5px 20px 5px 20px;
+    }
+}

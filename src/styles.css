@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Rukopis";
+    src: local("Rukopis"), url(./assets/fonts/CassandraPersonalUseRegular.ttf) format("truetype");
+  }

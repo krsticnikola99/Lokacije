@@ -1,0 +1,60 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #c6d8f8;
+    margin-top: 30px;
+}
+
+
+
+.imgClass{
+  border-bottom: 3px solid rgb(99, 90, 79);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url('src\assets\img\worldmap.jpg') center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  background-color: #0000007c;
+  background-blend-mode:soft-light;
+  margin-bottom: 30px;
+}
+
+
+
+.imgClass span{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-family:"Rukopis";
+    transition: 1s;
+    margin-left: 100px;
+    align-self: flex-end;
+}
+
+.bottomfooter{
+    background:#ffffffab /*#343b40*/;
+    padding: 30px 0;
+    color: rgb(87, 85, 85);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow:
+      inset 0 -2em 3em rgba(0,0,0,0.1),
+            0 0  0 0px rgb(255,255,255),
+            0.2em 0.6em 1em rgba(0,0,0,0.3);
+  }
+  
+  
+  .bottomfooter .mycredits {
+    padding-top: 10px;
+    font-size: 13px;
+    color: rgb(155, 155, 155);
+  }

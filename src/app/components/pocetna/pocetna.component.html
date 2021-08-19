@@ -1,0 +1,24 @@
+<div class="imgClass">
+        <span>{{welcomeMessage}}|</span>
+</div>
+
+
+<app-kategorijelist></app-kategorijelist>
+<div class="container">
+    <div *ngFor="let lok of lokacije | async">
+        <app-lokacija-kartica [lokacija]="lok"></app-lokacija-kartica>
+    </div>
+</div>
+<footer>
+    <div class="bottomfooter">        
+        <div class="copyright">
+            &copy; Copyright <strong>Go to chill 2021</strong>. All Rights Reserved
+        </div>
+
+        <div class="mycredits">
+            Designed by <a href="">Nikola Krstić</a>
+        </div>
+</div>
+</footer>
+
+

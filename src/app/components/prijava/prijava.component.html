@@ -1,0 +1,12 @@
+
+<div class="container">
+
+    <div class="center">
+        <input type="text" placeholder="Korisničko ime" class="unosime" (change)="updateKorisnickoIme($event)">
+        <input type="text" placeholder="Šifra" class="unossifra" (change)="updateSifra($event)">
+        <span class="validatemessage {{validateMessageVisible}}">Podaci nisu validni.</span>
+        <input type="button" value="Prijavi se" (click)="logIn()">
+    </div>
+        
+</div>
+    

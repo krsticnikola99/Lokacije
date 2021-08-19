@@ -1,0 +1,12 @@
+<div class="container" *ngIf="user">
+    <div class="top">
+        <img [src]="user.slika">
+        <h1>Moje lokacije</h1>
+    </div>
+    <hr>
+    <div class="bottom">
+        <div *ngFor="let lok of lokacije | async">
+            <app-lokacija-kartica [lokacija]="lok" [adminFlag]="true" ></app-lokacija-kartica>
+        </div>
+    </div>
+</div>

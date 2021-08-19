@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="center">
+        <img src='{{nalog.slika}}'>
+        <input type="file" accept="image/png, image/jpeg" (change)="updateImg($event)">
+        <input type="text" placeholder="Korisničko ime"  (input)="updateKorisnickoIme($event)">
+        <span class="usernameClass1 {{usernameValidationCorrectly}}">Korisničko ime odgovara <fa-icon [icon]="checkCircle"></fa-icon></span>
+        <span class="usernameClass2 {{usernameValidationNotCorrectly}}">Korisničko ime je zauzeto <fa-icon [icon]="timesCircle"></fa-icon> </span>
+        <input type="text" placeholder="Ime"  (change)="updateIme($event)">
+        <input type="text" placeholder="Prezime"  (change)="updatePrezime($event)">
+        <input type="password" placeholder="Šifra"  (change)="updateSifra($event)">
+        <input type="password" placeholder="Ponovite šifru"  (change)="updateSifraR($event)">
+        <span class="validatemessageClass">{{validateMessage}}</span>
+        <input type="button" value="Registruj se" (click)="registrujSe()">
+    </div>
+</div>

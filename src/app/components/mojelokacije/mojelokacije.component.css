@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+
+    background: url('src\assets\img\loginbg.jpg') center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.top img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.top h1{
+    background-color: rgb(135, 190, 222);
+    padding:10px;
+    text-transform: uppercase;
+}
+
+hr{
+    width: 100%;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

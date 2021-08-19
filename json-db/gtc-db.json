@@ -1,0 +1,128 @@
+{
+  "lokacije": [
+    {
+      "id": 1,
+      "idKreatora": "marija",
+      "naziv": "Tvrdjava",
+      "opis": "Niska tvrdjava",
+      "kategorija": "Izlet",
+      "x": 43.3252476,
+      "y": 21.8953769,
+      "ocena": 3,
+      "datum": 1629219172000
+    },
+    {
+      "id": 2,
+      "idKreatora": "marija",
+      "naziv": "Park Cair",
+      "opis": "Sportsko rekreativni centar cair.",
+      "kategorija": "Sport",
+      "x": 43.3141233,
+      "y": 21.9066716,
+      "ocena": 5,
+      "datum": 1629219172001
+    },
+    {
+      "id": 3,
+      "idKreatora": "krsta",
+      "naziv": "Svetosavski park",
+      "opis": "Crkva Svetog Cara Konstantina i Carice Jelene",
+      "kategorija": "Turizam",
+      "x": 0,
+      "y": 0,
+      "ocena": 3,
+      "pretraga": "Park+svetog+save+nis",
+      "datum": 1629219172002
+    },
+    {
+      "id": 4,
+      "idKreatora": "krsta",
+      "naziv": "asdsa",
+      "kategorija": "Planinarenje",
+      "opis": "asdsasdda",
+      "x": 0,
+      "y": 0,
+      "ocena": 4,
+      "pretraga": "leskovac",
+      "datum": 1629219172003
+    },
+    {
+      "id": 6,
+      "idKreatora": "krsta",
+      "naziv": "Proba",
+      "kategorija": "Sport",
+      "opis": "opis",
+      "x": 0,
+      "y": 0,
+      "ocena": 0,
+      "pretraga": "barje",
+      "datum": 1629219172011
+    },
+    {
+      "id": 7,
+      "idKreatora": "krsta",
+      "naziv": "sport",
+      "kategorija": "Planinarenje",
+      "opis": "sport",
+      "x": 0,
+      "y": 0,
+      "ocena": 0,
+      "pretraga": "dubocica",
+      "datum": 1629220280065
+    },
+    {
+      "id": 8,
+      "idKreatora": "jelena",
+      "naziv": "Ada ciganlija",
+      "kategorija": "Sport",
+      "opis": "Kupaliste.",
+      "x": 0,
+      "y": 0,
+      "ocena": 0,
+      "pretraga": "ada+ciganlija",
+      "datum": 1629375885877
+    }
+  ],
+  "korisnici": [
+    {
+      "id": 0,
+      "korisnickoIme": "krsta",
+      "ime": "Nikola",
+      "prezime": "Krstic",
+      "slika": "https://yt3.ggpht.com/yti/APfAmoGzE_SaPfLp4nb42tUbXfs9jC-mnHYhNKsmkXXobg=s88-c-k-c0x00ffffff-no-rj-mo",
+      "sifra": "12345"
+    },
+    {
+      "id": 1,
+      "korisnickoIme": "marija",
+      "ime": "Marija",
+      "prezime": "Krsanin",
+      "slika": "https://scontent.fbeg8-1.fna.fbcdn.net/v/t1.6435-9/39169719_2173466536224197_859795037536387072_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ABCkVAHyIxYAX97hPm2&_nc_ht=scontent.fbeg8-1.fna&oh=d81a182ba3fc4b58267ff430fc17f59c&oe=60F0D680",
+      "sifra": "54321"
+    },
+    {
+      "korisnickoIme": "1234",
+      "ime": "1234",
+      "prezime": "1234",
+      "sifra": "1234",
+      "slika": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/1024px-No_image_available.svg.png",
+      "id": 2
+    },
+    {
+      "korisnickoIme": "krstaa",
+      "ime": "Nikola",
+      "prezime": "Krstic",
+      "sifra": "1234",
+      "slika": "https://jelenadisevic.com/Database/GtcWeb/upload/611e475242c46.jpg",
+      "id": 3
+    },
+    {
+      "korisnickoIme": "jelena",
+      "ime": "Jelena",
+      "prezime": "Disevic",
+      "sifra": "1234",
+      "slika": "https://jelenadisevic.com/Database/GtcWeb/upload/611e47b2dc6a4.jpg",
+      "id": 4
+    }
+  ]
+}
